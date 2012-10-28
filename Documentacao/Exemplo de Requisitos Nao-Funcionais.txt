@@ -1,0 +1,25 @@
+Requisitos nao-funcionais
+<descrever as restriçoes associadas ao software categorizando como restrições de segurança, disponibilidade, robustez , tecnológica ou usabilidade>
+
+
+<SEGUE UM EXEMPLO DE LISTA DE REQUISITOS NÃO-FUNCIONAIS>
+
+Segurança	
+RNF1:	O software deve manter todas as senhas armazenadas criptografadas.
+	
+RNF4:	A senha de acesso ao sistema deve ser composta de 6 a 8 caracteres, onde de 1 a 3 devem ser, obrigatoriamente, dígitos.  O conjunto de caracteres válidos para formação de senhas é: [a..z, A..Z, 0..9, _, @].  Caracteres maiúsculos e minúsculos são considerados diferentes.
+	
+RNF5:	O acesso a todas às funcionalidades online deverá ser realizado através do protocolo HTTPS com chave de 128bits.
+
+Disponibilidade	
+RNF6:	O software deve estar disponível 24hs por dia, 7 dias por semana (24x7), com a possibilidade de paradas pré-programadas para manutenção no mesmo ou na infra-estrutura de apoio. (servidores, sistemas operacionais, SGDB, servidor web, etc.).
+
+Robustez	
+RNF8:	Nas funcionalidades que demandarem algum tipo de interação entre o software e o usuário (ou seja, uma interface humano-computador), todas as falhas do software devem ser apresentadas seguindo o mesmo padrão de interface do próprio software.  Nenhum detalhe técnico deverá ser apresentado ao usuário do software (versões de BD, SO, servidor web, tecnologias empregadas, etc).
+
+Tecnológicos	
+RNF9:	O software deve ser implementado como uma aplicação Web.
+	
+
+RNF10:	O software deve ser compatível com os browsers IE (versão 5.0 ou superior) e Firefox (1.0 ou superior).
+
